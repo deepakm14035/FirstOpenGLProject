@@ -121,7 +121,7 @@
 //    glGenBuffers(1, &buffer);
 //    glBindBuffer(GL_ARRAY_BUFFER, buffer);
 //    glBufferData(GL_ARRAY_BUFFER, 4 * 2 * sizeof(float), vertices, GL_STATIC_DRAW);//copying vertices variable into vRAM
-//    glEnableVertexAttribArray(0);
+//    glEnableVertexAttribArray(0);//enable the generic vertex attribute array specified by index.
 //    glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, sizeof(float) * 2, 0);//specifies details for first attribute to be passed to vertex shader
 //    //http://docs.gl/gl4/glVertexAttribPointer
 //
